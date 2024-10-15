@@ -1,5 +1,43 @@
 # Enis Scanner
-Enis Scanner is a free tool for scanning and analyzing IPs, URLs, and file hashes using various online security services.
+Enis Scanner is a free tool for scanning and analyzing IPs, URLs, and file hashes using various online security services. 
+
+## Tool Objectives
+
+EnisScanner is designed to significantly reduce the time security analysts spend on OSINT (Open Source Intelligence) research during their investigations. The tool achieves this by:
+
+1. Automating Data Collection: EnisScanner simultaneously queries multiple OSINT sources, eliminating the need for manual searches across different platforms.
+
+2. Centralizing Information: All relevant data is consolidated into a single CSV output, providing a comprehensive overview at a glance.
+
+3. Accelerating Decision-Making: By quickly gathering critical information, analysts can make faster, more informed decisions about potential threats.
+
+4. Enhancing Efficiency: The tool processes multiple items (IPs, URLs, hashes) in seconds, a task that would take hours if done manually.
+
+5. Standardizing Data Format: Consistent output format allows for easier integration with other analysis tools and workflows.
+
+Key information gathered by EnisScanner includes:
+
+- For Files:
+  * Creation time
+  * First submission time to VirusTotal
+  * Detection rates from multiple antivirus engines
+
+- For Domains:
+  * Creation dates
+  * WHOIS information
+  * Associated IP addresses
+
+- For IP Addresses:
+  * Ownership information
+  * Geolocation data
+  * AbuseIPDB report numbers and abuse confidence percentages
+
+- For URLs:
+  * VirusTotal scan results
+  * URLScan.io analysis outcomes
+  * Google Safe Browsing status
+
+By automating the collection of this crucial OSINT data, EnisScanner empowers analysts to focus on higher-level threat analysis and decision-making, rather than time-consuming data gathering. This tool can potentially reduce OSINT research time from hours to mere minutes, significantly improving the efficiency and effectiveness of security investigations.
 
 ## Features
 - Scans IPs using VirusTotal and AbuseIPDB
