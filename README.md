@@ -24,12 +24,10 @@ Key information gathered by EnisScanner includes:
 
 - For Domains:
   * Creation dates
-  * WHOIS information
   * Associated IP addresses
 
 - For IP Addresses:
   * Ownership information
-  * Geolocation data
   * AbuseIPDB report numbers and abuse confidence percentages
 
 - For URLs:
