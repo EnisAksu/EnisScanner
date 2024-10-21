@@ -84,6 +84,10 @@ The input CSV should contain columns with IPs, URLs, or file hashes. The scanner
 - Email addresses may be mistakenly identified as domains in some cases
 - Some filenames might be identified and scanned as URLs
 
+## Important Note for first time use
+EnisScanner might be stopped by Defender as this is my very first program, I did not have much experience to make more Defender friendly one.
+If you see "don't run" button on the bottom right, then click "More Info" link and then "Run anyway". As you have downloaded this executable from internet, this is a defense mechanism by Defender. However, as the executable is clean, it allows you to run it.
+
 ## Disclaimer
 This tool is for educational and research purposes only. Users are responsible for complying with applicable laws and the terms of service of the APIs used.
 
