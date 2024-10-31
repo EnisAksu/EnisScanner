@@ -2,7 +2,7 @@
 
 Enis Scanner is a free tool for scanning and analyzing IPs, URLs, and file hashes using various online security services.
 
-## Download
+## Website
 https://enisscanner.com/
 
 ## Tool Objectives
