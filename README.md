@@ -1,18 +1,18 @@
-# Enis Scanner v2.0
-
-Enis Scanner is a free tool for scanning and analyzing IPs, URLs, and file hashes using various online security services.
+# SCOUT v1.0
+SCOUT stands for 
+SCOUT is a free tool for scanning and analyzing IPs, URLs, and file hashes using various online security services.
 
 ## Tool Objectives
 
-EnisScanner is designed to significantly reduce the time security analysts spend on OSINT (Open Source Intelligence) research during their investigations. The tool achieves this by:
+SCOUT is designed to significantly reduce the time security analysts spend on OSINT (Open Source Intelligence) research during their investigations. The tool achieves this by:
 
-- Automating Data Collection: EnisScanner simultaneously queries multiple OSINT sources, eliminating the need for manual searches across different platforms.
+- Automating Data Collection: SCOUT simultaneously queries multiple OSINT sources, eliminating the need for manual searches across different platforms.
 - Centralizing Information: All relevant data is consolidated into a single CSV output, providing a comprehensive overview at a glance.
 - Accelerating Decision-Making: By quickly gathering critical information, analysts can make faster, more informed decisions about potential threats.
 - Enhancing Efficiency: The tool processes multiple items (IPs, URLs, hashes) in seconds, a task that would take hours if done manually.
 - Standardizing Data Format: Consistent output format allows for easier integration with other analysis tools and workflows.
 
-Key information gathered by EnisScanner includes:
+Key information gathered by SCOUT includes:
 
 For Files:
 - Creation time
@@ -53,7 +53,7 @@ For IP Addresses:
 
 ## Installation
 
-1. Download EnisScanner.exe from the releases page of this repository.
+1. Download SCOUT.exe from the releases page of this repository.
 
 2. Obtain API keys for:
    - VirusTotal
@@ -64,14 +64,14 @@ For IP Addresses:
 
 ## Usage
 
-1. Double-click EnisScanner.exe to run the application.
+1. Double-click SCOUT.exe to run the application.
 2. Use the GUI to select your input CSV file (either by browsing or dragging and dropping).
 3. Click the "SCAN" button to start the analysis.
 4. Results will be saved in a new CSV file in the same directory as the input file.
 
 ## Input CSV Format
 
-The input CSV should contain columns with IPs, URLs, or file hashes. The scanner will automatically detect and process these items.
+The input CSV should contain columns with IPs, URLs, or file hashes. The SCOUT will automatically detect and process these items.
 
 ## New Features in v2.0
 
@@ -91,7 +91,7 @@ The input CSV should contain columns with IPs, URLs, or file hashes. The scanner
 
 ## Important Note for First Time Use
 
-EnisScanner might be flagged by Windows Defender as this is a new program. If you see a "Windows protected your PC" message, click "More info" and then "Run anyway". This is a standard security measure for new applications downloaded from the internet. The executable is clean and safe to run.
+SCOUT might be flagged by Windows Defender as this is a new program. If you see a "Windows protected your PC" message, click "More info" and then "Run anyway". This is a standard security measure for new applications downloaded from the internet. The executable is clean and safe to run.
 
 ## Disclaimer
 
@@ -99,5 +99,4 @@ This tool is for educational and research purposes only. Users are responsible f
 
 ## License
 
-All rights reserved @EnisAksu. This tool was designed, developed and created by Enis Aksu and cannot be sold or given for free by anyone else.
-This updated content reflects the new features and improvements in version 2.0 of EnisScanner, including the enhanced GUI, automatic API key management, and improved error handling.
+All rights reserved @EnisAksu. This tool was designed, developed and created by Enis Aksu and cannot be sold or given for monetary gain by anyone else.
