@@ -1,5 +1,5 @@
 # SCOUT v1.0
-SCOUT stands for 
+S.C.O.U.T. stands for Streamlined Cybersecurity OSINT Utilizing Threats aka SCOUT. 
 SCOUT is a free tool for scanning and analyzing IPs, URLs, and file hashes using various online security services.
 
 ## Tool Objectives
