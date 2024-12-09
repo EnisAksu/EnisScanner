@@ -73,13 +73,14 @@ For IP Addresses:
 
 The input CSV should contain columns with IPs, URLs, or file hashes. The SCOUT will automatically detect and process these items.
 
-## New Features in v2.0
+## Features in v1.0
 
 - Improved GUI with dark mode for better visibility
-- Drag and drop functionality for easier file selection
 - Automatic API key checking and prompting
 - Enhanced error handling and timeout management for API requests
-- Improved visibility of scan progress and results
+- Visibility of scan progress and results
+- API Keys tab to add your API Keys
+- OSINT Services tab to select which OSINT resources you want to use
 
 ## Limitations and Known Issues
 
@@ -97,6 +98,6 @@ SCOUT might be flagged by Windows Defender as this is a new program. If you see 
 
 This tool is for educational and research purposes only. Users are responsible for complying with applicable laws and the terms of service of the APIs used.
 
-## License
+## Unlicensed
 
-All rights reserved @EnisAksu. This tool was designed, developed and created by Enis Aksu and cannot be sold or given for monetary gain by anyone else.
+No rights reserved @EnisAksu. This tool was designed, developed and created by Enis Aksu and cannot be sold or given for monetary gain by anyone else. Otherwise, you are free to use it and improve it via its source code.
